@@ -205,73 +205,73 @@ section img {
     <div class="love block heart" style="left:90%;"></div>
 
     <!-- Buttons -->
-    <nav>
-        <button onclick="showDashboard('messageDashboard')">𓍯♡🌸Message🌸𓍯♡</button>
-        <button onclick="showDashboard('photosDashboard')">ೀ⋆｡🌷Photos🌷｡⋆ ೀ</button>
-        <button onclick="showDashboard('musicDashboard')">𐙚˚˖𓍢ִႋ🎀✧˚⋆Music⋆˚✧🎀˚˖𓍢ִႋ𐙚</button>
-    </nav>
+<nav>
+    <button onclick="showDashboard('musicDashboard')">𐙚˚˖𓍢ִႋ🎀✧˚⋆Music⋆˚✧🎀˚˖𓍢ִႋ𐙚</button>
+    <button onclick="showDashboard('photosDashboard')">ೀ⋆｡🌷Photos🌷｡⋆ ೀ</button>
+    <button onclick="showDashboard('messageDashboard')">𓍯♡🌸Message🌸𓍯♡</button>
+</nav>
 
-    <!-- Message Dashboard -->
-    <div id="messageDashboard" class="dashboard">
-        <h2>𓍯𓂃𓏧♡ೀ⋆｡🌷 Happy 5th Anniversary baby𓂃𓏧♡ೀ🩷</h2>
-        <p style="color:#ff1a75; text-shadow:1px 1px 2px #fff;">
-            𓍯𓂃𓏧♡ೀ⋆｡🌷 Happy 5th Anniversary baby𓂃𓏧♡ೀ🩷 <br>
-            Thank you for loving me, choosing me, and staying with me through everything.<br>
-            You are my best friend, my safe place, and my greatest blessing.<br>
-            I can't wait for more years with you. Forever us 💞✨
+<!-- Music Dashboard -->
+<div id="musicDashboard" class="dashboard">
+    <h2>𐙚 Our Songs</h2>
+    <div>
+        <audio id="musicPlayer1" controls src="song1.mp3"></audio>
+        <p style="color: black;">
+            Every time I hear ‘Palagi,’ it reminds me of us mahal on how even when we have disagreements or hard days, always remember that I'll always choose you. Just like the song says, no matter what happens, I keep coming back to your arms. It’s a love that stays, that keeps choosing you palagi. 🩷🖤
+        </p>
+        <audio id="musicPlayer2" controls src="song2.mp3"></audio>
+        <p style="color: black;">
+            This song reminds me of you because it’s like the promise in the lyrics that no matter where life takes us, no matter how many storms we face or how many months go by, no matter how far apart we are, or how long the days feel, I’ll always come back to you. Because you are the one I want to go through everything with. 🥹🩷🖤
         </p>
     </div>
+</div>
 
-    <!-- Photos Dashboard with slideshow and sparkles -->
-    <div id="photosDashboard" class="dashboard" 
-         style="background: linear-gradient(135deg,#ffe4e1,#ffc0cb); 
-                border-radius:20px; padding:30px; 
-                box-shadow: 0 10px 30px rgba(0,0,0,0.2); max-width:95%; 
-                margin:auto; position:relative;">
-
-        <h2 style="font-family:'Comic Sans MS'; color:#ff1a75; text-shadow: 2px 2px 5px #fff; margin-bottom:20px;">
-            ಈ⋆𓏧 Our Memories Together ♡♡♡⋆.𐙚˚
-        </h2>
-
-        <!-- Sparkles container -->
-        <div id="sparklesContainer" style="position:absolute; width:100%; height:100%; top:0; left:0; pointer-events:none; overflow:hidden;"></div>
-
-        <div class="slideshow-container" 
-             style="position: relative; border: 5px solid #ffb6c1; border-radius:20px; padding:10px; 
-                    box-shadow: 0 6px 15px rgba(255,182,193,0.6); max-width:90%; margin:auto; overflow:hidden;">
-
-            <img class="slide" src="us1.jpg" alt="Us 1">
-            <img class="slide" src="us10.jpg" alt="Us 10">
-            <img class="slide" src="us11.jpg" alt="Us 11">
-            <img class="slide" src="us12.jpg" alt="Us 12">
-            <img class="slide" src="us14.jpg" alt="Us 14">
-            <img class="slide" src="us16.jpg" alt="Us 16">
-            <img class="slide" src="us17.jpg" alt="Us 17">
-            <img class="slide" src="us18.jpg" alt="Us 18">
-            <img class="slide" src="us19.jpg" alt="Us 19">
-            <img class="slide" src="us2.jpg" alt="Us 2">
-            <img class="slide" src="us20.jpg" alt="Us 20">
-            <img class="slide" src="us23.jpg" alt="Us 23">
-            <img class="slide" src="us3.jpg" alt="Us 3">
-            <img class="slide" src="us4.jpg" alt="Us 4">
-            <img class="slide" src="us5.jpg" alt="Us 5">
-            <img class="slide" src="us6.jpg" alt="Us 6">
-            <img class="slide" src="us7.jpg" alt="Us 7">
-
-            <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
-            <span class="next" onclick="plusSlides(1)">&#10095;</span>
-        </div>
-
-        <!-- Footer Message -->
-        <p style="margin-top:20px; font-size:18px; line-height:1.5; 
-                  color:#ff1a75; text-shadow: 1px 1px 3px #fff;">
-            Every picture here holds a memory that I will treasure forever. 
-            From our simple moments to our happiest days, I am always grateful 
-            that I get to experience life with you mahal. No matter how many years pass, 
-            I will always look at these photos and remember how lucky I am to have you baby. 
-            Let's create more happy memories love, iloveyousm dade😚🩷
-        </p>
+<!-- Photos Dashboard with slideshow -->
+<div id="photosDashboard" class="dashboard" style="background: linear-gradient(135deg,#ffe4e1,#ffc0cb); border-radius:20px; padding:30px; box-shadow: 0 8px 20px rgba(0,0,0,0.2);">
+    <h2 style="font-family:'Comic Sans MS'; color:#ff4d6d; margin-bottom:20px;">ೀ⋆𓏧 Our memories together ♡♡♡⋆.𐙚˚</h2>
+    <div class="slideshow-container" style="position: relative; border: 5px solid #ffb6c1; border-radius:20px; padding:5px; box-shadow: 0 4px 10px rgba(255,182,193,0.5); max-width:90%; margin:auto;">
+        <img class="slide" src="us1.jpg" alt="Us 1">
+        <img class="slide" src="us10.jpg" alt="Us 10">
+        <img class="slide" src="us11.jpg" alt="Us 11">
+        <img class="slide" src="us12.jpg" alt="Us 12">
+        <img class="slide" src="us14.jpg" alt="Us 14">
+        <img class="slide" src="us16.jpg" alt="Us 16">
+        <img class="slide" src="us17.jpg" alt="Us 17">
+        <img class="slide" src="us18.jpg" alt="Us 18">
+        <img class="slide" src="us19.jpg" alt="Us 19">
+        <img class="slide" src="us2.jpg" alt="Us 2">
+        <img class="slide" src="us20.jpg" alt="Us 20">
+        <img class="slide" src="us23.jpg" alt="Us 23">
+        <img class="slide" src="us3.jpg" alt="Us 3">
+        <img class="slide" src="us4.jpg" alt="Us 4">
+        <img class="slide" src="us5.jpg" alt="Us 5">
+        <img class="slide" src="us6.jpg" alt="Us 6">
+        <img class="slide" src="us7.jpg" alt="Us 7">
+        <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+        <span class="next" onclick="plusSlides(1)">&#10095;</span>
     </div>
+    <p style="color:#ff4d6d; font-size:16px; margin-top:15px;">
+        Every picture here holds a memory that I will treasure forever. From our simple moments to our happiest days, I am always grateful that I get to experience life with you mahal. No matter how many years pass, I will always look at these photos and remember how lucky I am to have you baby. Let's create more happy memories love, iloveyousm dade😚🩷
+    </p>
+</div>
+
+<!-- Message Dashboard -->
+<div id="messageDashboard" class="dashboard">
+    <h2>𓍯𓂃𓏧♡ೀ⋆｡🩷𓂃𓏧♡ೀ🩷</h2>
+    <p>
+        𓍯𓂃𓏧♡ೀ⋆｡ Happy 5th Anniversary love 𓂃𓏧♡ೀ🩷 <br>
+
+I just want to take this moment to tell you how much I truly admire and appreciate you. You’re such an incredible man so loving, caring, and thoughtful. You provide for me in so many ways, not just in what you do, but in the way you show up for me every single day. Even with your busy work schedule and all the challenges you face, you always make time for us, for me. That selflessness and dedication of yours never ceases to amaze me.
+In our 5 years together, you’ve always been consistent, patient, and understanding. Even when we argue or have a small tampuhan, thank you for always choosing to stay. You inspire me with your strength, your commitment, and your unwavering love. I feel so blessed that God brought you into my life, and I’m so grateful for every moment we’ve shared together, mahal.
+Please know, my love, that sometimes when I’m moody or feeling a bit sad, it’s not because i dont understand the situation cause sometimes i just need to be understood too I’m just a girl who doesn’t always understand what’s happening in her heart/head on those days. When I feel jealous, it’s only because I love you so much. And when I feel ignored or not seen, it hurts me. That’s why I just ask for your patience and understanding. Please be kind, and mahinahon to me, and remind me of your love. All I really want is your love, your reassurance, and to feel close to you love.🥺💖
+I pray to God that the love we have now continues to grow and lasts forever. I don’t know what the future holds, but I hope and believe that one day we will be together completely as one. While we continue chasing our dreams and walking our own paths, I want you to know that I will always be here to support you, to cheer you on, and to stand by your side in everything you do. Whatever brings you happiness, I will always be a part of it, because your happiness is my happiness too.
+
+I love you more than words can ever fully express. And I hope you feel my love every single day. You will always be my partner in crime, my best friend, my safe place, and my greatest blessing. Thank you for loving me so perfectly, for making me feel special, and for being the amazing man that you are.
+
+Happy 5th anniversary, my love!🥰🩷🎀
+    </p>
+</div>
+
 
 <!-- Music Dashboard -->
 <div id="musicDashboard" class="dashboard">
@@ -364,5 +364,6 @@ setInterval(createSparkle, 200);
 
 </body>
 </html>
+
 
 
